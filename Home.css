@@ -1,0 +1,28 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    height: 100vh;
+    background-image: url('./Assets/Images/Home\ Background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  .home-content {
+    margin: auto;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Optional: add a background overlay for better text readability */
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .home-header {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home-description {
+    font-size: 1.5rem;
+  }
+  
