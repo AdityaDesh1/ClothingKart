@@ -1,0 +1,51 @@
+.mens-page {
+  width: 100%;
+  padding: 20px;
+}
+
+.background-container {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background: url("./Assets/Images/Background.png") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.background-container h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mens-section {
+  width: 100%;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.category-nav {
+  margin-bottom: 20px;
+}
+
+.category-nav button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.category-nav button:hover {
+  background-color: #ddd;
+}
